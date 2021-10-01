@@ -21,8 +21,6 @@ api = API(auth)
 
 
 
-
-
 #SListener Object
 class SListener(StreamListener):
     def __init__(self, api = None, fprefix = 'streamer'):
